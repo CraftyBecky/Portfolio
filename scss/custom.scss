@@ -25,7 +25,6 @@ $body-color: white;
 @import "../bootstrap/scss/root.scss";
 
 
-
 // 6. Optionally include any other parts as needed
 @import "../bootstrap/scss/utilities.scss";
 @import "../bootstrap/scss/reboot.scss";
@@ -44,8 +43,14 @@ $body-color: white;
     padding: 10rem;
 }
 
-.section-headline {
+.section-headline, 
+.social-links {
     padding: 2rem;
 }
+
+#contact {
+    margin: 5rem;
+}
+
 
 

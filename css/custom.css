@@ -5898,8 +5898,13 @@ progress {
   padding: 10rem;
 }
 
-.section-headline {
+.section-headline,
+.social-links {
   padding: 2rem;
+}
+
+#contact {
+  margin: 5rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
