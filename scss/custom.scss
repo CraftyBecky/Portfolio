@@ -6,11 +6,10 @@
 @import "../bootstrap/scss/functions.scss";
 
 // 2. Include any default variable overrides here
-
 $body-bg: #000;
 $body-color: white;
-$primary: #0074d9;
-$danger: #ff4136;
+
+
 
 
 
@@ -41,5 +40,12 @@ $danger: #ff4136;
 
 // 8. Add additional custom code here
 
+#banner-text {
+    padding: 10rem;
+}
+
+.section-headline {
+    padding: 2rem;
+}
 
 
