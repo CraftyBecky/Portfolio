@@ -28,9 +28,6 @@ $body-color: white;
 // 6. Optionally include any other parts as needed
 @import "../bootstrap/scss/utilities.scss";
 
-"background-color" {
-    
-}
 @import "../bootstrap/scss/reboot.scss";
 @import "../bootstrap/scss/type.scss";
 @import "../bootstrap/scss/images.scss";
@@ -39,6 +36,7 @@ $body-color: white;
 @import "../bootstrap/scss/helpers.scss";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+
 @import "../bootstrap/scss/utilities/api.scss";
 
 // 8. Add additional custom code here
