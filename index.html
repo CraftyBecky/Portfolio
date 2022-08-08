@@ -17,22 +17,23 @@
     
     <header>
         <body>
-            <nav>
-                <ul class="nav nav-tabs justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> 
-                            <i class="fas fa-bars" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-dark">
-                            <a class="dropdown-item" href="#banner"><i class="fas fa-carat-right"></i>Top</a>
-                            <a class="dropdown-item" href="#about"><i class="fas fa-carat-right"></i>About</a>
-                            <a class="dropdown-item" href="#experience"><i class="fas fa-carat-right"></i>Technologies & Other Skills</a>
-                            <a class="dropdown-item" href="#projects"><i class="fas fa-carat-right"></i>Projects</a>
-                            <a class="dropdown-item" href="#work-education"><i class="fas fa-carat-right"></i>Work & Education</a>
-                            <a class="dropdown-item" href="#contact"><i class="fas fa-carat-right"></i>Contact</a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="masthead" style="background-image: url('./images/endless-constellation.svg');">
+                <div class="color-overlay d-flex justify-content-center align-items-center">
+            </div>
+            <nav class="nav d-flex justify-content-end p-5">
+                <div class="btn-group dropdown">
+                    <button type="button" class="btn btn-secondary btn-info btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark list-unstyled">
+                      <li><a class="dropdown-item" href="#banner"><i class="fas fa-carat-right"></i>Top</a></li>
+                      <li><a class="dropdown-item" href="#about"><i class="fas fa-carat-right"></i>About</a></li>
+                      <li><a class="dropdown-item" href="#experience"><i class="fas fa-carat-right"></i>Technologies & Other Skills</a></li>
+                      <li><a class="dropdown-item" href="#projects"><i class="fas fa-carat-right"></i>Projects</a></li>
+                      <li><a class="dropdown-item" href="#work-education"><i class="fas fa-carat-right"></i>Work & Education</a></li>
+                      <li><a class="dropdown-item" href="#contact"><i class="fas fa-carat-right"></i>Contact</a></li>
+                    </ul>
+                  </div>
             </nav>
     </header>
             
@@ -43,23 +44,23 @@
                 <div id="banner-text">
                     <div class="container-fluid text-center">
                         <h1 class="fw-bold display-1">Becky McDaniel</h1>
-                        <h2 class="display-4">Frontend Web Developer</h2>
+                        <h2 class="display-5">Frontend Web Developer</h2>
                     </div>
                 </div>
             </section>
     
             <section id="about" class="section-wrap">
-                <div class="container-fluid">
+                <div class="container">
                     <h2 class="section-headline fw-semibold text-center display-6">About Me</h2>
-                    <div class="about-me row text-bg-info p-4 justify-content-between">
-                        <picture class="col-4">
+                    <div class="about-me row p-4 text-bg-info justify-content-evenly align-items-center rounded">
+                        <picture class="col-4 ">
                             <img src="./images/headshot2015.jpg" class="photo img-fluid rounded" alt="sepia toned photo of Becky smiling">
                         </picture>
                         <div class="description col-md-8">
                             <p>I am a developer working out of the Denver Metro area. I started my career by serving in the United States Air Force Reserves, while at the same time learning and working in more creative and technical fields such as custom picture framing and medical billing. I am now combining all of my collective experience with my coding skills to deliver problem-solving solutions that are creative, well thought out, and scalable. Being able to create things with code is both challening and enjoyable.</p>
 
                             <p>In my free time I enjoy games of all sorts (board, video and roleplaying), serving the Denver Metro area through volunteer work, and finding time for outdoor activities. I have a wide range of interests from fountain pens and journaling, to Star Trek and Stranger Things.</p>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -95,10 +96,10 @@
             <section id="projects" class="section-wrap">
                 <div class="container container-fluid">
                     <h2 class="section-headline fw-semibold text-center display-6">Projects</h2>
-                    <div class="flex-row ">
+                    <div class="row g-5">
                         <div class="col-md-6">
                             <div class="card">
-                                <img src="./images/ST2-blue.jpg" class="card-img-top" alt="small screen shot of a webpage">
+                                <img src="./images/ST2-lavender-small.jpg" class="card-img-top" alt="small screen shot of a webpage">
                                 <div class="card-body bg-dark">
                                     <h5 class="card-title">Dental Website Stock Themes</h5>
                                     <p class="card-text">This is my first real world project along with a mentor for some pair programming. These are stock themes for dentists to use with a little customization.</p>
@@ -106,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="card">
                                 <img src="" class="card-img-top" alt="">
                                 <div class="card-body bg-dark">
@@ -116,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <div class="card">
                                 <img src="" class="card-img-top" alt="">
                                 <div class="card-body bg-dark">
