@@ -20,7 +20,8 @@
             <div class="masthead" style="background-image: url('./images/endless-constellation.svg');">
                 <div class="color-overlay d-flex justify-content-center align-items-center">
             </div>
-            <nav class="nav d-flex justify-content-end p-2">
+            <!-- Navigation Tab Section-->
+            <nav class="nav d-flex justify-content-end p-3">
                 <div class="btn-group dropdown">
                     <button type="button" class="btn btn-secondary btn-info btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas fa-bars" aria-hidden="true"></i>
@@ -38,25 +39,27 @@
     </header>
             
             <div class="masthead" style="background-image: url('./images/endless-constellation.svg');">
-                <div class="color-overlay d-flex justify-content-center align-items-center">
+                <div class="color-overlay d-flex justify-content-center align-items-center p-5 mb-5">
             </div>
+            <!-- Banner Section-->
             <section id="banner">
-                <div id="banner-text">
-                    <div class="container-fluid text-center">
+                <div id="banner-text d-flex justify-content-center align-items-center">
+                    <div class="container text-center p-5">
                         <h1 class="fw-bold display-1">Becky McDaniel</h1>
                         <h2 class="display-5">Frontend Web Developer</h2>
                     </div>
                 </div>
             </section>
-    
+
+            <!-- About Me Section -->
             <section id="about" class="section-wrap">
                 <div class="container-fluid">
-                    <h2 class="section-headline fw-semibold text-center display-6">About Me</h2>
-                    <div class="about-me row p-4 text-bg-info justify-content-evenly align-items-center">
-                        <picture class="col-4">
+                    <div class="about-me row p-4 text-bg-info justify-content-evenly align-items-center mt-5 mb-5">
+                        <h2 class="section-headline fw-semibold text-center display-5">About Me</h2>
+                        <picture class="col-md-4">
                             <img src="./images/headshot2015.jpg" class="photo img-fluid rounded g-3 mx-auto d-block" alt="sepia toned photo of Becky smiling">
                         </picture>
-                        <div class="description col-md-8 g-3 p-4">
+                        <div class="description lead fw-semibold col-md-8 g-3 p-4">
                             <p>I am a developer working out of the Denver Metro area. I started my career by serving in the United States Air Force Reserves, while at the same time learning and working in more creative and technical fields such as custom picture framing and medical billing. I am now combining all of my collective experience with my coding skills to deliver problem-solving solutions that are creative, well thought out, and scalable. Being able to create things with code is both challenging and enjoyable. I also find myself interested in learning UI/UX to further improve upon my ability to produce the best user experience.</p>
 
                             <p>In my free time I enjoy games of all sorts (board, video and roleplaying), serving the Denver Metro area through volunteer work, and finding time for outdoor activities. I have a wide range of interests from fountain pens and journaling, to Star Trek and Stranger Things.</p>
@@ -65,40 +68,44 @@
                 </div>
             </section>
 
+            <!-- Code Skills & Soft Skills Section -->
             <section id="experience" class="section-wrap">
-                <div class="container container-fluid">
-                    <h2 class="section-headline fw-semibold text-center display-6">Technologies & Other Skills</h2>
-                    <div class="flex-row d-flex justify-content-evenly">
-                        <div class="technologies col-md-6">
+                <div class="container contain-fluid">
+                    <h2 class="section-headline fw-semibold text-center display-5 mt-5">Code Skills & Soft Skills</h2>
+                    <div class="row d-flex justify-content-evenly align-content-center lead">
+                        <div class="code-skills col-6 col-lg-auto m-5">
+                            <h3 class="section-subheadline"></i>Code Skills</h3>
                             <ul class="list-unstyled">
-                                <li>HTML</li>
-                                <li>CSS(LESS/SCSS)</li>
-                                <li>Bootstrap</li>
-                                <li>JavaScript</li>
-                                <li>GIT</li>
-                                <li>Salesforce</li>
+                                <li class="p-2">HTML</li>
+                                <li class="p-2">CSS (LESS)</li>
+                                <li class="p-2">Bootstrap</li>
+                                <li class="p-2">JavaScript</li>
+                                <li class="p-2">Git</li>
+                                <li class="p-2">Salesforce</li>
                             </ul>
                         </div>
-                        <div class="skills col-md-6">
+                        <div class="soft-skills col-6 col-lg-auto m-5">
+                            <h3 class="section-subheadline">Soft Skills</h3>
                             <ul class="list-unstyled">
-                                <li>Emotional Intelligence (EQ)</li>
-                                <li>Leadership and Training</li>
-                                <li>Customer Focused Experience</li>
-                                <li>Effective Communicator</li>
-                                <li>Creative</li>
-                                <li>Collabortion / Team Work</li>
+                                <li class="p-2">Emotional Intelligence (EQ)</li>
+                                <li class="p-2">Customer Focused Experience</li>
+                                <li class="p-2">Effective Communicator</li>
+                                <li class="p-2">Critical Thinking / Problem Solving</li>
+                                <li class="p-2">Collabortion / Team Work</li>
+                                <li class="p-2">Leadership and Training</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
     
+            <!-- Projects Section -->
             <section id="projects" class="section-wrap">
                 <div class="container container-fluid">
-                    <h2 class="section-headline fw-semibold text-center display-6">Projects</h2>
-                    <div class="row g-5">
-                        <div class="col-md-6">
-                            <div class="card">
+                    <h2 class="section-headline fw-semibold text-center display-5 mt-5">Projects</h2>
+                    <div class="flex-row d-flex justify-content-between align-content-around g-5 m-5">
+                        <div class="col-md-6 col-md-auto">
+                            <div class="card text-center">
                                 <img src="./images/ST2-lavender-small.jpg" class="card-img-top" alt="small screen shot of a webpage">
                                 <div class="card-body bg-dark">
                                     <h5 class="card-title">Dental Website Stock Themes</h5>
@@ -106,9 +113,8 @@
                                     <a href="#" class="card-link">GitHub Link</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
+                        <div class="col-md-6 col-md-auto">
+                            <div class="card text-center">
                                 <img src="" class="card-img-top" alt="">
                                 <div class="card-body bg-dark">
                                     <h5 class="card-title">Name of project</h5>
@@ -117,60 +123,43 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-3">
-                            <div class="card">
-                                <img src="" class="card-img-top" alt="">
-                                <div class="card-body bg-dark">
-                                    <h5 class="card-title">Name of project</h5>
-                                    <p class="card-text">Description</p>
-                                    <a href="#" class="card-link">GitHub Link</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="" class="card-img-top" alt="">
-                                <div class="card-body bg-dark">
-                                    <h5 class="card-title">Name of project</h5>
-                                    <p class="card-text">Description</p>
-                                    <a href="#" class="card-link">GitHub Link</a>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </section>
 
+            <!-- Work Experience & Education Section -->
             <section id="work-education" class="section-wrap">
                 <div class="container container-fluid">
-                    <h2 class="section-headline fw-semibold text-center display-6">Work Experience & Education</h2>
-                    <div class="flex-row d-flex justify-content-evenly">
-                        <div class="experience col-md-6">
+                    <h2 class="section-headline fw-semibold text-center display-5 m-3">Work Experience & Education</h2> 
+                    <div class="row d-flex justify-content-center align-content-center lead">
+                        <div class="experience col-md-6 col-lg-auto m-5">
+                            <h3 class="section-subheadline">Work Experience</h3>
                             <ul class="list-unstyled">
-                                <li>Freelance Dveloper</li>
-                                <li>Medical Biller</li>
-                                <li>USAFR</li>
-                                <li>Customer Picture Framer</li>
+                                <li class="p-2"><strong>Freelance Developer -</strong><i> March 2022 - Present</i></li>
+                                <li class="p-2"><strong>Medical Biller -</strong><i> Amerita and Coram / CVS - 2016 - Present</i></li>
+                                <li class="p-2"><strong>USAFR -</strong><i>  2013 - 2019</i></li>
                             </ul>
                         </div>
-                        <div class="education col-md-6">
+                        <div class="education col-md-6 col-lg-auto m-5">
+                            <h3 class="section-subheadline">Education</h3>
                             <ul class="list-unstyled">
-                                <li>Treehouse Learning</li>
-                                <li>El Camino Community College</li>
+                                <li class="p-2"><strong>Treehouse Learning -</strong><i> Front End Developer Track - November 2022 - Present</i></li>
+                                <li class="p-2"><strong>El Camino College -</strong><i>Geology /Earth Sciences Study</i></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="resume">
+                    <div class="resume text-center p-4 lead">
                         Feel free to download <a href="">my resume</a>
                     </div>
                 </div>
             </section>
     
+            <!-- Contact Section -->
             <section id="contact" class="section-wrap">
                 <div class="container container-fluid text-center">
                     <div class="flex-row g-4 justify-content md-center">
-                        <h3 class="contact-me fw-semibold display-6">Say Hello!</h3>
-                        <p>Let's talk! Whether you want to talk business or if you just want to say hi, my inbox is always open.</p>
+                        <h3 class="contact-me fw-semibold display-5 m-5">Say Hello!</h3>
+                        <p class="lead">Let's talk! Whether you want to talk business or if you just want to say hi, my inbox is always open.</p>
                         <form class="row">
                             <div class="col-md-6">
                                 <label for="full-name" class="form-label col-form-label-sm"></label>
@@ -184,28 +173,28 @@
                                 <label for="message" class="form-label col-form-label-lg"></label>
                                 <textarea class="form-control" type="text" id="message" name="message" placeholder="Leave a message here" aria-label="message"></textarea>
                             </div>
-                            <div class="g-3 col-12">
-                                <button type="button" class="btn btn-info fw-semibold">Send Message</button>
+                            <div class="g-3 p-5 col-12">
+                                <a href="#" type="button" class="btn btn-info fw-semibold btn-lg">Send Message</a>
                             </div>
                         </form>
                     </div>
                 </div>
             </section>
     
+            <!-- Footer -->
     <footer>
         <section id="footer" class="section-wrap">
             <div class="container-fluid text-center footer text-bg-info p-3 col-12">
-                <div class="flex-row">
-                    <a class="navbar-brand fa-brands fa-bootstrap" target="_blank"></a>
-                    <div class="social-links">
-                        <button type="button" class="btn btn-outline-light btn-lg">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="social-links align-items-center">
+                        <button type="button" class="btn btn-outline-light btn-lg m-3">
                             <a class="fa-brands fa-linkedin" href="www.linkedin.com/in/rebeckahmcdaniel" target="_blank"></a>
                         </button>
                         <button type="button" class="btn btn-outline-light btn-lg">
                             <a class="fa-brands fa-github" href="https://github.com/CraftyBecky" target="_blank"></a>
                         </button>
                     </div>
-                    <div class="copyright fw-semibold">&copy Becky McDaniel 2022</div>
+                        <div class="copyright fw-semibold align-items-end">&copy Becky McDaniel 2022</div>
                 </div>
             </div>
         </section>
