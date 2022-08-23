@@ -103,17 +103,39 @@
             <section id="projects" class="section-wrap">
                 <div class="container container-fluid">
                     <h2 class="section-headline fw-semibold text-center display-5 mt-5">Projects</h2>
-                    <div class="flex-row d-flex justify-content-between align-content-around g-5 m-5">
-                        <div class="col-md-6 col-md-auto">
-                            <div class="card text-center">
-                                <img src="./images/ST2-lavender-small.jpg" class="card-img-top" alt="small screen shot of a webpage">
-                                <div class="card-body bg-dark">
-                                    <h5 class="card-title">Dental Website Stock Themes</h5>
-                                    <p class="card-text">This is my first real world project along with a mentor for some pair programming. These are stock themes for dentists to use with a little customization.</p>
+                    <div class="row g-5 m-3">
+                        <div class="col-6 m-4">
+                            <div class="card text-center lead">
+                                <div class="card-body bg-dark p-4">
+                                    <img src="./images/ST2-lavender-small.jpg" class="card-img-top pb-5" alt="small screen shot of a webpage">
+                                    <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Dental Website Stock Theme
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Dental Website Stock Theme</h5>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <!-- Modal body with image -->
+                                        <div class="modal-body">
+                                          <img src="./images/ST2-lavender.jpg" alt="fullsize screen shot of a webpage">
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- <h5 class="card-title pt-4 pb-3">Dental Website Stock Theme</h5> -->
+                                    <p class="card-text pt-4 pb-4">This is my first real world project along with a mentor for some pair programming. These are stock themes for dentists to use with a little customization.</p>
                                     <a href="#" class="card-link">GitHub Link</a>
                                 </div>
                             </div>
-                        <div class="col-md-6 col-md-auto">
+                        <div class="col-6 m-4">
                             <div class="card text-center">
                                 <img src="" class="card-img-top" alt="">
                                 <div class="card-body bg-dark">
@@ -131,8 +153,8 @@
             <section id="work-education" class="section-wrap">
                 <div class="container container-fluid">
                     <h2 class="section-headline fw-semibold text-center display-5 m-3">Work Experience & Education</h2> 
-                    <div class="row d-flex justify-content-center align-content-center lead">
-                        <div class="experience col-md-6 col-lg-auto m-5">
+                    <div class="row flex-column d-flex justify-content-evenly align-content-center lead">
+                        <div class="experience col-6 col-lg-auto m-5">
                             <h3 class="section-subheadline">Work Experience</h3>
                             <ul class="list-unstyled">
                                 <li class="p-2"><strong>Freelance Developer -</strong><i> March 2022 - Present</i></li>
@@ -140,7 +162,7 @@
                                 <li class="p-2"><strong>USAFR -</strong><i>  2013 - 2019</i></li>
                             </ul>
                         </div>
-                        <div class="education col-md-6 col-lg-auto m-5">
+                        <div class="education col-6 col-lg-auto m-5">
                             <h3 class="section-subheadline">Education</h3>
                             <ul class="list-unstyled">
                                 <li class="p-2"><strong>Treehouse Learning -</strong><i> Front End Developer Track - November 2022 - Present</i></li>
