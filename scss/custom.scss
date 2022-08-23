@@ -37,10 +37,11 @@ $body-color: white;
 @import "../bootstrap/scss/utilities/api.scss";
 
 // 8. Add additional custom code here
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
-:root {
-    --bs-body-font-family: 'Zilla Slab', serif;
-}
+
+// @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
+// :root {
+//     --bs-body-font-family: 'Zilla Slab', serif;
+// }
 
 #banner-text {
     padding: 10rem;
@@ -59,4 +60,9 @@ $body-color: white;
     padding: 3rem;
 }
 
-
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+  }

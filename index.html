@@ -42,15 +42,16 @@
                 <div class="color-overlay d-flex justify-content-center align-items-center p-5 mb-5">
             </div>
             <!-- Banner Section-->
-            <section id="banner">
-                <div id="banner-text d-flex justify-content-center align-items-center">
-                    <div class="container text-center p-5">
-                        <h1 class="fw-bold display-1">Becky McDaniel</h1>
-                        <h2 class="display-5">Frontend Web Developer</h2>
+            <section id="banner" class="section-wrap">
+                <div class="container">
+                    <div id="banner-text d-flex justify-content-center align-items-center">
+                        <div class="text-center p-5">
+                            <h1 class="fw-bold display-1">Becky McDaniel</h1>
+                            <h2 class="display-5">Frontend Web Developer</h2>
+                        </div>
                     </div>
                 </div>
             </section>
-
             <!-- About Me Section -->
             <section id="about" class="section-wrap">
                 <div class="container-fluid">
@@ -71,9 +72,9 @@
             <!-- Code Skills & Soft Skills Section -->
             <section id="experience" class="section-wrap">
                 <div class="container contain-fluid">
-                    <h2 class="section-headline fw-semibold text-center display-5 mt-5">Code Skills & Soft Skills</h2>
+                    <h2 class="section-headline fw-semibold text-center display-5 mt-5">Techonologies & Other Skills</h2>
                     <div class="row d-flex justify-content-evenly align-content-center lead">
-                        <div class="code-skills col-6 col-lg-auto m-5">
+                        <div class="technologies col-6 col-lg-auto m-5">
                             <h3 class="section-subheadline"></i>Code Skills</h3>
                             <ul class="list-unstyled">
                                 <li class="p-2">HTML</li>
@@ -84,7 +85,7 @@
                                 <li class="p-2">Salesforce</li>
                             </ul>
                         </div>
-                        <div class="soft-skills col-6 col-lg-auto m-5">
+                        <div class="other-skills col-6 col-lg-auto m-5">
                             <h3 class="section-subheadline">Soft Skills</h3>
                             <ul class="list-unstyled">
                                 <li class="p-2">Emotional Intelligence (EQ)</li>
@@ -103,7 +104,8 @@
             <section id="projects" class="section-wrap">
                 <div class="container container-fluid">
                     <h2 class="section-headline fw-semibold text-center display-5 mt-5">Projects</h2>
-                    <div class="row g-5 m-3">
+                    <div class="row g-5 m-5">
+                        <!-- GDW card -->
                         <div class="col-6 m-4">
                             <div class="card text-center lead">
                                 <div class="card-body bg-dark p-4">
@@ -114,15 +116,15 @@
                                 </button>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog role="document">
+                                    <div class="modal-dialog modal-xl" role="document">
                                       <div class="modal-content">
                                         <div class="modal-header">
                                           <h5 class="modal-title" id="exampleModalLabel">Dental Website Stock Theme</h5>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
                                         </div>
                                         <!-- Modal body with image -->
                                         <div class="modal-body">
-                                          <img src="./images/ST2-lavender.jpg" alt="fullsize screen shot of a webpage">
+                                          <img src="./images/ST2-lavender.jpg" class="img-fluid modal-image" alt="fullsize screen shot of a webpage">
                                         </div>
                                         <div class="modal-footer">
                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -131,10 +133,12 @@
                                     </div>
                                   </div>
                                     <!-- <h5 class="card-title pt-4 pb-3">Dental Website Stock Theme</h5> -->
-                                    <p class="card-text pt-4 pb-4">This is my first real world project along with a mentor for some pair programming. These are stock themes for dentists to use with a little customization.</p>
+                                    <p class="card-text pt-4 pb-4">This is my first real world project along with a mentor for some pair programming. This is a stock themes for dentists to use along with a little customization on their end.</p>
                                     <a href="#" class="card-link">GitHub Link</a>
                                 </div>
                             </div>
+
+                        <!-- Next project -->
                         <div class="col-6 m-4">
                             <div class="card text-center">
                                 <img src="" class="card-img-top" alt="">
@@ -170,7 +174,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="resume text-center p-4 lead">
+                    <div class="resume text-center p-2 lead">
                         Feel free to download <a href="">my resume</a>
                     </div>
                 </div>
