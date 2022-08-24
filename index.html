@@ -73,7 +73,7 @@
             <section id="experience" class="section-wrap">
                 <div class="container contain-fluid">
                     <h2 class="section-headline fw-semibold text-center display-5 mt-5">Techonologies & Other Skills</h2>
-                    <div class="row d-flex justify-content-evenly align-content-center lead">
+                    <div class="row d-flex justify-content-evenly align-content-evenly lead">
                         <div class="technologies col-6 col-lg-auto m-5">
                             <h3 class="section-subheadline"></i>Code Skills</h3>
                             <ul class="list-unstyled">
@@ -104,27 +104,25 @@
             <section id="projects" class="section-wrap">
                 <div class="container container-fluid">
                     <h2 class="section-headline fw-semibold text-center display-5 mt-5">Projects</h2>
-                    <div class="row g-5 m-5">
+                    <div class="flex-row d-flex justify-content-center align-content-around flex-wrap g-5 p-3">
                         <!-- GDW card -->
-                        <div class="col-6 m-4">
-                            <div class="card text-center lead">
-                                <div class="card-body bg-dark p-4">
-                                    <img src="./images/ST2-lavender-small.jpg" class="card-img-top pb-5" alt="small screen shot of a webpage">
+                        <div class="col-lg-6 align-items-center p-3">
+                            <div class="card text-center lead mb-3">
+                                <img src="./images/ST2-lavender-small.jpg" class="card-img-top" alt="Small screen shot of a webpage">
+                                <div class="card-body bg-dark">
                                     <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Dental Website Stock Theme
-                                </button>
+                                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Dental Website Stock Theme
+                                    </button>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-xl" role="document">
                                       <div class="modal-content">
                                         <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Dental Website Stock Theme</h5>
-
                                         </div>
                                         <!-- Modal body with image -->
                                         <div class="modal-body">
-                                          <img src="./images/ST2-lavender.jpg" class="img-fluid modal-image" alt="fullsize screen shot of a webpage">
+                                          <img src="./images/ST2-lavender.jpg" class="img-fluid modal-image" alt="Fullsize screen shot of a webpage">
                                         </div>
                                         <div class="modal-footer">
                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -132,20 +130,40 @@
                                       </div>
                                     </div>
                                   </div>
-                                    <!-- <h5 class="card-title pt-4 pb-3">Dental Website Stock Theme</h5> -->
                                     <p class="card-text pt-4 pb-4">This is my first real world project along with a mentor for some pair programming. This is a stock themes for dentists to use along with a little customization on their end.</p>
-                                    <a href="#" class="card-link">GitHub Link</a>
+                                    <a href="#" class="card-link">GitHub Repository Link</a>
                                 </div>
                             </div>
+                        </div>
 
                         <!-- Next project -->
-                        <div class="col-6 m-4">
-                            <div class="card text-center">
-                                <img src="" class="card-img-top" alt="">
+                        <div class="col-lg-6 align-items-center p-3">
+                            <div class="card text-center mb-3 lead">
+                                <img src="./images/summary-mobile-small.jpg" class="card-img-top" alt="A smiling cartoon girl holding an mp3 player dancing with an order summary">
                                 <div class="card-body bg-dark">
-                                    <h5 class="card-title">Name of project</h5>
-                                    <p class="card-text">Description</p>
-                                    <a href="#" class="card-link">GitHub Link</a>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Frontend Mentor - Order Summary Card
+                                    </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                        </div>
+                                        <!-- Modal body with image -->
+                                        <div class="modal-body">
+                                            <img src="./images/summary-desktop.jpg" class="img-fluid modal-image" alt="Mobile version of the summary card">
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <p class="card-text  pt-4 pb-4">This is a project that I wanted to complete using nothing but HTML and CSS. I started with a framework but wanted to solidify my CSS learning but doing vanilla CSS only. It has proven to be an excellent challenge.</p>
+                                    <a href="#" class="card-link">GitHub Pages Live</a>
+                                    <a href="#" class="card-link">GitHub Repository Link</a>
                                 </div>
                             </div>
                         </div>
