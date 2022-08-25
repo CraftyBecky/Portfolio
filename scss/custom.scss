@@ -43,26 +43,21 @@ $body-color: white;
 //     --bs-body-font-family: 'Zilla Slab', serif;
 // }
 
-#banner-text {
-    padding: 10rem;
-}
-
-#about-me {
-    margin-bottom: 5rem;
-}
-
-#contact {
-    margin: 5rem;
-}
-
-.section-headline, 
-.social-links {
-    padding: 3rem;
-}
-
 @media (min-width: 768px) {
     .modal-xl {
         width: 90%;
         max-width:1200px;
     }
-  }
+
+#banner-text {
+    padding: 10rem;
+}
+    
+.section-headline,
+.social-links {
+    padding: 2rem;
+}
+
+#contact {
+    margin: 5rem;
+}
