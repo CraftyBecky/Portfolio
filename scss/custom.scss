@@ -38,16 +38,17 @@ $body-color: white;
 
 // 8. Add additional custom code here
 
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
-:root {
-    --bs-body-font-family: 'Zilla Slab', serif;
-}
+// @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
+// :root {
+//     --bs-body-font-family: 'Zilla Slab', serif;
+// }
 
 @media (min-width: 768px) {
     .modal-xl {
         width: 90%;
         max-width:1200px;
     }
+}
 
 #banner-text {
     padding: 10rem;
@@ -58,7 +59,24 @@ $body-color: white;
     padding: 2rem;
 }
 
+
 #contact {
-    margin: 5rem;
+    margin: 3rem;
+}
+
+a {
+    color: #0dcaf0;
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+h2::after {
+    content: "";
+    display: block;
+    margin: 15px auto 30px;
+    height: 8px;
+    width: 110px;
+    background-color: #ffffff;
 }
 

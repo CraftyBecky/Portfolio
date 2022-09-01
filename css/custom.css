@@ -5894,6 +5894,12 @@ progress {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
+}
 #banner-text {
   padding: 10rem;
 }
@@ -5904,7 +5910,23 @@ progress {
 }
 
 #contact {
-  margin: 5rem;
+  margin: 3rem;
+}
+
+a {
+  color: #0dcaf0;
+}
+a:hover {
+  color: #ffffff;
+}
+
+h2::after, .h2::after {
+  content: "";
+  display: block;
+  margin: 15px auto 30px;
+  height: 8px;
+  width: 110px;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=custom.css.map */
