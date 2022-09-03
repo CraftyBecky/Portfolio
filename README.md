@@ -25,7 +25,8 @@ I found this tutorial from freeCodeCamp on building and depolying my portfolio w
 https://www.freecodecamp.org/news/how-to-build-and-deploy-a-beautiful-personal-portfolio-site-with-aws-s3-route53-and-cloudfront-8827975129ef/
 
 
-
+Tutorial for installing package.json
+https://heynode.com/tutorial/create-packagejson-file/
 
 
 
