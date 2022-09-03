@@ -2,7 +2,7 @@
 Rebeckah (Becky) McDaniel's Portfolio - July 2022
 Made with Bootstrap 5.2.0 and AWS
 
-As I prepare to start looking for a developer position, I knew it was time to get started on my portfolio. I also decided to use this opportunity to learn Bootstrap 5. I attempted to try building with just a CDN but this was proving to not be affective if I also wanted to use SCSS/SASS. So with the help of my mentor, we spent and evening and installed NPM/ Node.js. At least half of what I did on my portfolio was done for this first time. 
+As I prepared to start looking for a developer position, I knew it was time to get started on my portfolio. I also decided to use this opportunity to learn Bootstrap 5. I attempted to try building with just a CDN but this was proving to not be effective if I also wanted to use SCSS/SASS. So with the help of my mentor, we spent an evening and installed NPM/ Node.js. At least half of what I did in my portfolio was done for the first time.
 
 
 # Things I learned
@@ -13,7 +13,7 @@ https://code.visualstudio.com/docs/languages/css
 
 Modal/popup help - As I wanted to be able to have an image visible for my project
 This was my first time creating a modal
-I spent a little while trying to figure out how to get my image into the Bootstrap modal
+I spent a little while trying to figure out how to get my image into the Bootstrap modal.
 https://www.geeksforgeeks.org/how-to-fit-the-image-into-modal-popup-using-bootstrap/#:~:text=Images%20can%20be%20fitted%20in,can%20be%20inserted%20into%20it.
 
 
@@ -21,7 +21,7 @@ Once I could not get the image to fit within the modal, I added the img-fluid cl
 https://stackoverflow.com/questions/25859255/trying-to-make-bootstrap-modal-wider
 
 
-I found this tutorial from freeCodeCamp on building and deplying my portfolio with AWS S3, Route53, and CloudFront. 
+I found this tutorial from freeCodeCamp on building and depolying my portfolio with AWS S3, Route53, and CloudFront. 
 https://www.freecodecamp.org/news/how-to-build-and-deploy-a-beautiful-personal-portfolio-site-with-aws-s3-route53-and-cloudfront-8827975129ef/
 
 
