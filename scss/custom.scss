@@ -38,10 +38,10 @@ $body-color: white;
 
 // 8. Add additional custom code here
 
-// @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
-// :root {
-//     --bs-body-font-family: 'Zilla Slab', serif;
-// }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
 
 @media (min-width: 768px) {
     .modal-xl {
@@ -50,15 +50,15 @@ $body-color: white;
     }
 }
 
-#banner-text {
-    padding: 10rem;
+#banner {
+    margin-top: 175px;
+    margin-bottom: 175px;
 }
-    
+
 .section-headline,
 .social-links {
     padding: 2rem;
 }
-
 
 #contact {
     margin: 3rem;
@@ -80,3 +80,15 @@ h2::after {
     background-color: #ffffff;
 }
 
+#about {
+    .photo {
+        padding-top: 2.5rem;
+    }
+    
+    .description {
+        @media (min-width: 576px) {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+}

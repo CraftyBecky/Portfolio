@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -5894,14 +5895,19 @@ progress {
     display: none !important;
   }
 }
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
 @media (min-width: 768px) {
   .modal-xl {
     width: 90%;
     max-width: 1200px;
   }
 }
-#banner-text {
-  padding: 10rem;
+#banner {
+  margin-top: 175px;
+  margin-bottom: 175px;
 }
 
 .section-headline,
@@ -5927,6 +5933,16 @@ h2::after, .h2::after {
   height: 8px;
   width: 110px;
   background-color: #ffffff;
+}
+
+#about .photo {
+  padding-top: 2.5rem;
+}
+@media (min-width: 576px) {
+  #about .description {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
