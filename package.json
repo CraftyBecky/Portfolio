@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Rebeckah (Becky) McDaniel's Portfolio - July 2022\r Made with Bootstrap 5.2.0 and AWS",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftyBecky/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Becky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraftyBecky/portfolio/issues"
+  },
+  "homepage": "https://github.com/CraftyBecky/portfolio#readme"
+}
