@@ -51,14 +51,12 @@ SVG Backgrounds
 -Used for non-Bottstrap background - Endless Constellation
 https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
 
-<<<<<<< HEAD
+
 
 Site will be hosted through AWS after 60 days as it is newly registered.
 
-LinkedIn Learning for AWS training for Developers
-=======
+
 LinkedIn Learning for AWS training for Developers 
->>>>>>> 8d625f973bba741086e2b481b0d547720252be7c
 -Learning Amazon Web Services (AWS) for Developers - Bear Cahill
 https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-amazon-web-services-aws-for-developers-14924833%3Ftrk%3Dshare_ent_url%26shareId%3DwC8CHWSpQSeVsF4PsAtQSQ%253D%253D
 
