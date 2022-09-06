@@ -4,6 +4,9 @@ Made with Bootstrap 5.2.0
 
 As I prepared to start looking for a developer position, I knew it was time to get started on my portfolio. I also decided to use this opportunity to learn Bootstrap 5. I attempted to try building with just a CDN but this was proving to not be effective if I also wanted to use SCSS/SASS. So with the help of my mentor, we spent an evening and installed NPM/ Node.js. At least half of what I did in my portfolio was done for the first time.
 
+Site is currently hosted through Netlify.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93ac2248-53f4-41ab-aded-0057d6477f70/deploy-status)](https://app.netlify.com/sites/beckymcd/deploys)
+
 
 # Things I learned
 
